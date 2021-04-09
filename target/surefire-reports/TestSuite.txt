@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 10.68 s <<< FAILURE! - in TestSuite
+com.employee.testCases.TC004_Put_Employee_Record.checkContentType  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke method getValue() on null object
+	at com.employee.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:93)
+
+com.employee.testCases.TC004_Put_Employee_Record.checkResponseBody  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employee.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:51)
+
+com.employee.testCases.TC004_Put_Employee_Record.checkStatusCode  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [-1]
+	at com.employee.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:64)
+
+com.employee.testCases.TC004_Put_Employee_Record.checkstatusLine  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [null]
+	at com.employee.testCases.TC004_Put_Employee_Record.checkstatusLine(TC004_Put_Employee_Record.java:86)
+
+com.employee.testCases.TC005_Delete_Employee_Record.checkContentType  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke method getValue() on null object
+	at com.employee.testCases.TC005_Delete_Employee_Record.checkContentType(TC005_Delete_Employee_Record.java:71)
+
+com.employee.testCases.TC005_Delete_Employee_Record.checkStatusCode  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [-1]
+	at com.employee.testCases.TC005_Delete_Employee_Record.checkStatusCode(TC005_Delete_Employee_Record.java:42)
+
+com.employee.testCases.TC005_Delete_Employee_Record.checkstatusLine  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [null]
+	at com.employee.testCases.TC005_Delete_Employee_Record.checkstatusLine(TC005_Delete_Employee_Record.java:64)
+
+com.employee.testCases.TC003_Post_Employee_Record.checkContentType  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke method getValue() on null object
+	at com.employee.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:93)
+
+com.employee.testCases.TC003_Post_Employee_Record.checkResponseBody  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employee.testCases.TC003_Post_Employee_Record.checkResponseBody(TC003_Post_Employee_Record.java:51)
+
+com.employee.testCases.TC003_Post_Employee_Record.checkStatusCode  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [-1]
+	at com.employee.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:64)
+
+com.employee.testCases.TC003_Post_Employee_Record.checkstatusLine  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [null]
+	at com.employee.testCases.TC003_Post_Employee_Record.checkstatusLine(TC003_Post_Employee_Record.java:86)
+
