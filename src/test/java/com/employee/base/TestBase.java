@@ -17,7 +17,7 @@ public class TestBase {
 	public Logger logger;
 
 	@BeforeClass
-	public void setUp() {
+	public void setUp() throws InterruptedException {
 
 		logger = Logger.getLogger("EmployeesRestAPI");
 		PropertyConfigurator.configure("Log4j.properties");

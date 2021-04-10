@@ -1,4 +1,4 @@
-package pojo;
+package pojo.jira;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

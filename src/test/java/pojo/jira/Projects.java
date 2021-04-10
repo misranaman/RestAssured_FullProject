@@ -1,4 +1,4 @@
-package pojo;
+package pojo.jira;
 
 public class Projects {
 

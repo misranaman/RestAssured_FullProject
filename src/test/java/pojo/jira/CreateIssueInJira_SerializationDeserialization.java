@@ -1,4 +1,4 @@
-package pojo;
+package pojo.jira;
 
 import org.testng.annotations.Test;
 
@@ -6,7 +6,6 @@ import com.employee.base.TestBase;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.http.Method;
 import io.restassured.response.Response;
 
 public class CreateIssueInJira_SerializationDeserialization extends TestBase {
