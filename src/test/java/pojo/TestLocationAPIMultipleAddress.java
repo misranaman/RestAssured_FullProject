@@ -22,14 +22,14 @@ public class TestLocationAPIMultipleAddress extends TestBase {
 
 		response = httpRequest.request(Method.GET, "/locations");
 
+		System.out.println(response.asPrettyString());
+
 		Address addressPrimary = new Address("122", "B Bakers Street", 12004, "primary");
 		Address addressSecondary = new Address("36", "China Town", 223455, "secondary");
 
 		List<Address> address = new ArrayList<Address>();
 		address.add(addressPrimary);
 		address.add(addressSecondary);
-
-		// int id = generateId();
 
 		Location location = new Location(4, "Moscow", "Russia", address);
 
