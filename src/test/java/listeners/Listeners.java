@@ -24,7 +24,7 @@ public class Listeners extends TestListenerAdapter {
 
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setDocumentTitle("Rest API Automation");
-		spark.config().setReportName("Rest API Automation");
+		spark.config().setReportName("Rest API Automation Report");
 		extent.attachReporter(spark);
 	}
 
