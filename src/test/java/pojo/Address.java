@@ -1,5 +1,7 @@
 package pojo;
 
+import java.util.List;
+
 public class Address {
 
 	private String street;
@@ -7,13 +9,20 @@ public class Address {
 	private int pincode;
 	private String type;
 
+	public Address(String street, String flat_no, int pincode) {
+
+		this.street = street;
+		this.flat_no = flat_no;
+		this.pincode = pincode;
+
+	}
+
 	public Address(String street, String flat_no, int pincode, String type) {
 
 		this.street = street;
 		this.flat_no = flat_no;
 		this.pincode = pincode;
 		this.type = type;
-
 	}
 
 	public String getStreet() {
@@ -38,14 +47,6 @@ public class Address {
 
 	public void setPincode(int pincode) {
 		this.pincode = pincode;
-	}
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
 	}
 
 }

@@ -17,9 +17,9 @@ public class TestLocationAPISingleAddress extends TestBase {
 		RestAssured.baseURI = "http://localhost:3000";
 		httpRequest = RestAssured.given();
 
-		Address addressPrimary = new Address("122", "B Bakers Street", 12004, "primary");
+		Address address = new Address("122", "B Bakers Street", 12004);
 
-		Location location = new Location(3, "London", "United Kingdom", addressPrimary);
+		Location_SingleAddress location = new Location_SingleAddress(3, "London", "United Kingdom", address);
 
 		httpRequest.header("Content-Type", "application/json");
 		httpRequest.body(location);

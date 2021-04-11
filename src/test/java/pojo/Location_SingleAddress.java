@@ -2,29 +2,19 @@ package pojo;
 
 import java.util.List;
 
-public class Location {
+public class Location_SingleAddress {
 
 	private int id;
 	private String city;
 	private String country;
 	private Address address;
-	private List addressList;
 
-	public Location(int id, String city, String country, Address address) {
+	public Location_SingleAddress(int id, String city, String country, Address address) {
 
 		this.id = id;
 		this.city = city;
 		this.country = country;
 		this.address = address;
-
-	}
-	
-	public Location(int id, String city, String country, List addressList) {
-
-		this.id = id;
-		this.city = city;
-		this.country = country;
-		this.addressList = addressList;
 
 	}
 
@@ -34,14 +24,6 @@ public class Location {
 
 	public void setAddress(Address address) {
 		this.address = address;
-	}
-
-	public List getAddressList() {
-		return addressList;
-	}
-
-	public void setAddressList(List addressList) {
-		this.addressList = addressList;
 	}
 
 	public int getId() {

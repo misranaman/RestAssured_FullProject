@@ -24,17 +24,16 @@ public class TestLocationAPIMultipleAddress extends TestBase {
 
 		System.out.println(response.asPrettyString());
 
-		Address addressPrimary = new Address("122", "B Bakers Street", 12004, "primary");
-		Address addressSecondary = new Address("36", "China Town", 223455, "secondary");
+		Address address1 = new Address("122", "B Bakers Street", 12004, "secondary");
+		Address address2 = new Address("Street 21", "Flat No 18", 122008, "primary");
+		List<Address> addresses = new ArrayList<Address>();
+		addresses.add(address1);
+		addresses.add(address2);
 
-		List<Address> address = new ArrayList<Address>();
-		address.add(addressPrimary);
-		address.add(addressSecondary);
-
-		Location location = new Location(4, "Moscow", "Russia", address);
+		Location_MultipleAddress locationMultiple = new Location_MultipleAddress(4, "Moscow", "Russia", addresses);
 
 		httpRequest.header("Content-Type", "application/json");
-		httpRequest.body(location);
+		httpRequest.body(locationMultiple);
 
 		response = httpRequest.request(Method.POST, "/locations");
 
