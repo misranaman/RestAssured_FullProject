@@ -12,7 +12,7 @@ import com.employee.base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 
-public class TC001LocationAPIMultipleAddress extends TestBase {
+public class TC001LocationAPIMultipleAddress_POST extends TestBase {
 
 	@BeforeTest
 	public void setUp() throws InterruptedException {

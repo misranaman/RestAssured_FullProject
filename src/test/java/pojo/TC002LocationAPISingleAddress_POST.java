@@ -9,7 +9,7 @@ import com.employee.base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 
-public class TC002LocationAPISingleAddress extends TestBase {
+public class TC002LocationAPISingleAddress_POST extends TestBase {
 
 	@BeforeTest
 	public void setUp() throws InterruptedException {
