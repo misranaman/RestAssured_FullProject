@@ -17,6 +17,11 @@
 			<class name="com.employee.testCases.TC004_Put_Employee_Record" />
 			<class
 				name="com.employee.testCases.TC005_Delete_Employee_Record" />
+
+			<class name="pojo.TC001LocationAPIMultipleAddress_POST" />
+			<class name="pojo.TC002LocationAPISingleAddress_POST" />
+			<class name="pojo.TC003LocationVerification_GET" />
+
 		</classes>
 
 	</test>

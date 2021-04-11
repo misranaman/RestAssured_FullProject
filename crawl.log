@@ -990,3 +990,93 @@ INFO	2021-04-09 11:55:23,504	9406	EmployeesRestAPI	[TestNG-test=restassuredtests
 INFO	2021-04-09 11:55:23,507	9409	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Check status line ***
 INFO	2021-04-09 11:55:23,507	9409	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Status Line is ==>null
 INFO	2021-04-09 11:55:23,510	9412	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Test Case End ***
+INFO	2021-04-11 11:26:16,974	4	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*********** Started TC004_Put_Employee_Record *********
+INFO	2021-04-11 11:26:16,975	5	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	***********Started TC001_Get_All_Employees*********
+INFO	2021-04-11 11:26:16,972	2	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*********** Started TC002_Get_Single_Employee Data *********
+INFO	2021-04-11 11:26:16,971	1	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*********** Started TC003_Post_Employee_Record *********
+INFO	2021-04-11 11:26:16,971	1	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*********** Started TC005_Delete_Employee_Record *********
+INFO	2021-04-11 11:26:18,622	1652	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	****** Checking Response Body *****
+INFO	2021-04-11 11:26:18,622	1652	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Response Body==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+INFO	2021-04-11 11:26:18,624	1654	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Checking Response Time ***
+INFO	2021-04-11 11:26:18,624	1654	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Response Time==>1632
+INFO	2021-04-11 11:26:18,624	1654	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Checking Status Code ***
+INFO	2021-04-11 11:26:18,625	1655	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Status Code==>200
+INFO	2021-04-11 11:26:18,625	1655	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Check status line ***
+INFO	2021-04-11 11:26:18,625	1655	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Status Line is ==>HTTP/1.1 200 OK
+INFO	2021-04-11 11:26:18,626	1656	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Test Case End ***
+INFO	2021-04-11 11:26:19,322	2352	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	****** Checking Response Body *****
+INFO	2021-04-11 11:26:19,323	2353	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Checking Response Time ***
+INFO	2021-04-11 11:26:19,324	2354	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Response Time==>2331
+INFO	2021-04-11 11:26:19,324	2354	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Checking Status Code ***
+INFO	2021-04-11 11:26:19,325	2355	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Status Code==>429
+INFO	2021-04-11 11:26:19,326	2356	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Check status line ***
+INFO	2021-04-11 11:26:19,326	2356	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Status Line is ==>HTTP/1.1 429 Too Many Requests
+INFO	2021-04-11 11:26:19,327	2357	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Test Case End ***
+INFO	2021-04-11 11:26:22,387	5417	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Checking Response Time ***
+INFO	2021-04-11 11:26:22,388	5418	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Response Time==>998
+INFO	2021-04-11 11:26:22,388	5418	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Checking Status Code ***
+INFO	2021-04-11 11:26:22,388	5418	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Status Code==>405
+INFO	2021-04-11 11:26:22,389	5419	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Check status line ***
+INFO	2021-04-11 11:26:22,389	5419	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:26:22,390	5420	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Test Case End ***
+INFO	2021-04-11 11:26:23,075	6105	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	****** Checking Response Body *****
+INFO	2021-04-11 11:26:23,077	6107	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Checking Response Time ***
+INFO	2021-04-11 11:26:23,078	6108	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Response Time==>998
+INFO	2021-04-11 11:26:23,078	6108	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Checking Status Code ***
+INFO	2021-04-11 11:26:23,079	6109	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Status Code==>405
+INFO	2021-04-11 11:26:23,079	6109	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Check status line ***
+INFO	2021-04-11 11:26:23,080	6110	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:26:23,081	6111	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Test Case End ***
+INFO	2021-04-11 11:26:26,007	9037	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	****** Checking Response Body *****
+INFO	2021-04-11 11:26:26,008	9038	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Checking Response Time ***
+INFO	2021-04-11 11:26:26,008	9038	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Response Time==>998
+INFO	2021-04-11 11:26:26,009	9039	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Checking Status Code ***
+INFO	2021-04-11 11:26:26,009	9039	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Status Code==>405
+INFO	2021-04-11 11:26:26,010	9040	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Check status line ***
+INFO	2021-04-11 11:26:26,010	9040	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:26:26,010	9040	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Test Case End ***
+INFO	2021-04-11 11:28:19,110	2	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*********** Started TC002_Get_Single_Employee Data *********
+INFO	2021-04-11 11:28:19,111	3	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*********** Started TC004_Put_Employee_Record *********
+INFO	2021-04-11 11:28:19,108	0	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*********** Started TC005_Delete_Employee_Record *********
+INFO	2021-04-11 11:28:19,108	0	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*********** Started TC003_Post_Employee_Record *********
+INFO	2021-04-11 11:28:19,108	0	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	***********Started TC001_Get_All_Employees*********
+INFO	2021-04-11 11:28:20,757	1649	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	****** Checking Response Body *****
+INFO	2021-04-11 11:28:20,760	1652	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Response Body==>
+INFO	2021-04-11 11:28:20,763	1655	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Checking Response Time ***
+INFO	2021-04-11 11:28:20,764	1656	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Response Time==>1629
+INFO	2021-04-11 11:28:20,766	1658	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Checking Status Code ***
+INFO	2021-04-11 11:28:20,767	1659	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Status Code==>-1
+INFO	2021-04-11 11:28:20,769	1661	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Check status line ***
+INFO	2021-04-11 11:28:20,770	1662	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	Status Line is ==>null
+INFO	2021-04-11 11:28:20,771	1663	EmployeesRestAPI	[TestNG-test=restassuredtests-1]	*** Test Case End ***
+INFO	2021-04-11 11:28:21,388	2280	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	****** Checking Response Body *****
+INFO	2021-04-11 11:28:21,389	2281	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Checking Response Time ***
+INFO	2021-04-11 11:28:21,389	2281	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Response Time==>2260
+INFO	2021-04-11 11:28:21,390	2282	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Checking Status Code ***
+INFO	2021-04-11 11:28:21,391	2283	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Status Code==>429
+INFO	2021-04-11 11:28:21,392	2284	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Check status line ***
+INFO	2021-04-11 11:28:21,392	2284	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	Status Line is ==>HTTP/1.1 429 Too Many Requests
+INFO	2021-04-11 11:28:21,393	2285	EmployeesRestAPI	[TestNG-test=restassuredtests-2]	*** Test Case End ***
+INFO	2021-04-11 11:28:24,294	5186	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Checking Response Time ***
+INFO	2021-04-11 11:28:24,295	5187	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Response Time==>1032
+INFO	2021-04-11 11:28:24,297	5189	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Checking Status Code ***
+INFO	2021-04-11 11:28:24,297	5189	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Status Code==>405
+INFO	2021-04-11 11:28:24,301	5193	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Check status line ***
+INFO	2021-04-11 11:28:24,301	5193	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:28:24,304	5196	EmployeesRestAPI	[TestNG-test=restassuredtests-5]	*** Test Case End ***
+INFO	2021-04-11 11:28:25,280	6172	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	****** Checking Response Body *****
+INFO	2021-04-11 11:28:25,283	6175	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Checking Response Time ***
+INFO	2021-04-11 11:28:25,283	6175	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Response Time==>1032
+INFO	2021-04-11 11:28:25,284	6176	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Checking Status Code ***
+INFO	2021-04-11 11:28:25,284	6176	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Status Code==>405
+INFO	2021-04-11 11:28:25,284	6176	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Check status line ***
+INFO	2021-04-11 11:28:25,285	6177	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:28:25,285	6177	EmployeesRestAPI	[TestNG-test=restassuredtests-4]	*** Test Case End ***
+INFO	2021-04-11 11:28:28,172	9064	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	****** Checking Response Body *****
+INFO	2021-04-11 11:28:28,175	9067	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Checking Response Time ***
+INFO	2021-04-11 11:28:28,175	9067	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Response Time==>1032
+INFO	2021-04-11 11:28:28,177	9069	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Checking Status Code ***
+INFO	2021-04-11 11:28:28,178	9070	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Status Code==>405
+INFO	2021-04-11 11:28:28,180	9072	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Check status line ***
+INFO	2021-04-11 11:28:28,180	9072	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	Status Line is ==>HTTP/1.1 405 Method Not Allowed
+INFO	2021-04-11 11:28:28,181	9073	EmployeesRestAPI	[TestNG-test=restassuredtests-3]	*** Test Case End ***
