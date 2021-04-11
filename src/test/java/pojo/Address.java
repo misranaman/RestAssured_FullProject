@@ -49,4 +49,14 @@ public class Address {
 		this.pincode = pincode;
 	}
 
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	
+
 }

@@ -7,6 +7,7 @@ public class Location_MultipleAddress {
 	private int id;
 	private String city;
 	private String country;
+	String type;
 	private List<Address> address;
 
 	public Location_MultipleAddress(int id, String city, String country, List<Address> address) {
