@@ -11,17 +11,6 @@
 
 		<classes>
 			<class name="com.employee.testCases.TC001_Get_All_Employees" />
-			<class
-				name="com.employee.testCases.TC002_Get_Single_Employee_Data" />
-			<class name="com.employee.testCases.TC003_Post_Employee_Record" />
-			<class name="com.employee.testCases.TC004_Put_Employee_Record" />
-			<class
-				name="com.employee.testCases.TC005_Delete_Employee_Record" />
-
-			<class name="pojo.TC001LocationAPIMultipleAddress_POST" />
-			<class name="pojo.TC002LocationAPISingleAddress_POST" />
-			<class name="pojo.TC003LocationVerification_GET" />
-
 		</classes>
 
 	</test>

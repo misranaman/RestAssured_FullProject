@@ -20,7 +20,7 @@ public class TestBase {
 	public void setUp() throws InterruptedException {
 
 		logger = Logger.getLogger("EmployeesRestAPI");
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("log4j.properties");
 		logger.setLevel(Level.DEBUG);
 
 	}
